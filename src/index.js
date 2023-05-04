@@ -13,7 +13,7 @@ import Parent from './ChildtoPar/Parent';
 import ProductList from './Tableprop/ProductList';
 import Fetch from './Fetchdata/Fetch';
 import AddItemForm from './AddItem/AddItemForm';
-import Main from "./SlideShow/Main";
+import Main from "./SlideShow/Slideshow";
 import Search from './Search/Search';
 import ShoppingCart from './Cart/ShoppingCart';
 import StartTimer from './Countdown/StartTimer';
@@ -21,6 +21,15 @@ import ProgressBar from './Bar/ProgressBar';
 import SubmitButton from './Button/SubmitButton';
 import Exp from './Expense/Exp';
 import WhatsApp from './Expense/WhatsApp';
+import Life from './Lifecycle/Life';
+import ListItem from './Real/ListItem';
+import ImageSlid from './Real/ImageSlid';
+import Toggle from './Real/Toggle';
+import Checkbox from './Real/Checkbox';
+import Calculate from './Real/Calculate';
+import DisableBut from './Real/DisableBut';
+import ShowHide from './Real/ShowHide';
+import Dashboard from './Real/Dasboard';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,13 +48,22 @@ root.render(
     {/* <Fetch/> */}
     {/* <AddItemForm/> */}
     {/* <Main/> */}
-    <Search/>
+    {/* <Search/> */}
     {/* <ShoppingCart/> */}
     {/* <StartTimer/> */}
     {/* <ProgressBar/> */}
     {/* <SubmitButton/> */}
     {/* <Exp/> */}
     {/* <WhatsApp/> */}
+    {/* <Life/> */}
+    {/* <ListItem/> */}
+    {/* <ImageSlid/> */}
+    {/* <Toggle/> */}
+    {/* <Checkbox/> */}
+    {/* <Calculate/> */}
+    {/* <DisableBut/> */}
+    {/* <ShowHide/> */}
+    <Dashboard/>
   </React.StrictMode>
 );
 
